@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-color: black !important;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	position: relative;
+	
+	
+}
+.box-container{
+	width: 380px;
+	height: 480px;
+	border-radius: 20px;
+	background-color:white;
+	position: relative;
+	margin: 6% auto;
+	padding: 5px;
+	overflow: hidden;
+	box-shadow: 0px 0px 4px 0px rgb(151, 143, 255);;
+	
+}
+.btn-group{
+	width: 220px;
+	margin: 35px 20%;
+	position: relative;
+	border-radius: 30px;
+	outline: none;
+}
+.moving-btn{
+	padding: 10px 30px;
+	background: transparent;
+	border: 0px;
+	outline: none;
+	position: relative;
+	color: rgb(252, 33, 33);
+}
+.moving-btn:focus{
+	outline: none;
+}
+button{
+	font-size: 1.8em;
+	font-family:'Oswald', sans-serif;
+}
+
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background-color: black;
+	border-radius: 30px;
+	transition: 0.5s;
+}
+	
+button{
+	outline: none;
+}
+
+.input{
+	top: 130px;
+	left:420px;
+	position: absolute;
+	width: 280px;
+	transition: 0.5s;
+}
+.input-field{
+	width: 100%;
+	margin: 5px 0;	
+	padding: 10px 0;
+	background: transparent;
+	outline: none;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+}
+
+.submit-btn{
+	display: block;
+	width: 260px;
+	padding: 10px;
+	background-color: rgb(0, 0, 0);
+	border-radius: 30px;
+	color:white ;
+	text-decoration: none;
+	margin-top: 50px;
+	border: none;
+	transition: 0.5s;
+}
+.submit-btn:focus{
+	outline: none;
+	transform: scale(1.1);
+}
+
+.check-field{
+	position: relative;
+    top: 25px;
+    left: 75px;
+}
+span{
+	position: absolute;
+	bottom: 70px;
+	color: #777;
+	left: 97px;
+}
+#login{
+	left: 50px;
+}
+#signup{
+	left: 450px;
+}
